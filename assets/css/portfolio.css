@@ -1,16 +1,17 @@
-body{
-	background-color: lightgrey;
+
+
+body, html{
+	background-color: #0D0D0D;
 	background-size: cover;
 	background-position: center;
 	font-family: lato
-
+	height: 100%;
+	margin: 0;
 }
 
-html{
-	 height: 100%;
-}
 
 #content{
+	font-family: coolvetica;
 	text-align: center;
 	padding-top: 25%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -18,12 +19,27 @@ html{
 				 0px 18px 23px rgba(0,0,0,0.1);
 
 }
-h1{
+
+header li{
+	text-align: center;
+	color: #F25E3D;
+}
+
+h3{
+	font-family: coolvetica;
 	color: white;
-	font-weight: 700;
+}
+
+
+
+h1{
+	font-family: coolvetica;
+	color: white;
+	font-weight: 400;
 	font-size: 5em;
 }
-h3{
+h2{
+	font-family: coolvetica;
 	color: white;
 	font-weight: 
 }
@@ -35,16 +51,39 @@ hr{
 
 p{
 	color: white;
+
 }
 
+li{
+	color: white;
+	list-style: none;
+
+}
+
+footer i{
+	padding: 10px;
+	color:  #F25E3D;
+}
+
+.social-links i{
+	padding: 10px;
+	color:  white;
+}
+
+
+
 .home_background{
-	background: #161415 url(https://images.unsplash.com/photo-1517499599364-261589d9cdfc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70f090238b227a5292fa51d59ad852f8&auto=format&fit=crop&w=1440&q=80) no-repeat top center;
+	background-image: url("../../images/foto.jpg");
+	height: 100%;
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 100%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about_background{
@@ -53,50 +92,241 @@ p{
 
 .portfolio_background{
 	padding-top: 50px;
+	background-color: #f5f5f5;
 }
 
 .contact_background{
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 50px
+	
 }
 
 #contact_form{
 	padding-right: 10%;
 	padding-left: 10%;
+
+}
+
+.image-wrapper{
+
+}
+
+label{
+	color: white;
+}
+
+a button{
+	color: white;
+	background-color: #0468BF;
 }
 
 footer {
-   padding-top: 25px;
-   padding-bottom: 15px;
-   
+   padding-top: 10px;
+   padding-bottom: 15px; 
    color: #303030;
    font-size: 14px;
-   text-align: center;
    position: relative;
-   background-color: darkgrey;
+   background-color: #0468BF;
+   align-content: center;
 }
 
-/*.footer {*/
-	/*background-color: darkgrey;
-   padding-top: 48px;
-   
-   color: #303030;
-   font-size: 14px;
-   text-align: center;
-   position: fixed;*/
+#designed-by{
+	font-family: coolvetica;
+	text-align: center;
+	text-decoration: underline;
+}
 
-  
-/*  position: relative;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: darkgrey;
-  color: white;
-  text-align: center;
-  margin-top: 25px
-}*/
+.project_about{
+	margin-top: 60px;
+}
+
+.buttons{
+	margin: 10px auto;
+	text-align: center;
+
+}
+
+form button{
+	color: white;
+	background-color: #0468BF;
+}
+
+.technologies{
+	background-color: white;
+	height: 
+}
+
+#contact{
+	padding-top: 50px;
+
+}
+
+aside {
+    background: #0468BF; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
 
 .social-links li{
 	display: inline-block;
 }
+
+.social-links{
+	text-align: center;
+	font-size: 40px;
+}
+
+.social-icons{
+	text-align: center;
+}
+
+.gform{
+	padding-right: 10%;
+}
+
+.address{
+
+	padding: 10%;
+}
+
+.address i{
+	padding: 10px;
+}
+
+.navbar{
+	background-color: #0D0D0D; 
+	color: #F25E3D;
+}
+
+.portfolio_background h2{
+	color:  #0D0D0D;
+}
+
+.portfolio_background p{
+	color:  #0D0D0D;
+}
+
+/*IMAGE SLIDER GALLARY
+============================*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.title{
+	margin-top: 60px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  align-items: center;
+}
+
+/*set size and positioning of slide-show images*/
+.mySlides img{
+	max-height: 500px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 80px;
+  object-fit: cover;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+/*IMAGE SLIDER GALLARY END
+====================*/

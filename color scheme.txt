@@ -1,0 +1,47 @@
+/* Color Theme Swatches in Hex */
+.Cheerful-young-hipster-woman,-creative-brain-1-hex { color: #D93644; }
+.Cheerful-young-hipster-woman,-creative-brain-2-hex { color: #E479F2; }
+.Cheerful-young-hipster-woman,-creative-brain-3-hex { color: #A735F2; }
+.Cheerful-young-hipster-woman,-creative-brain-4-hex { color: #464D73; }
+.Cheerful-young-hipster-woman,-creative-brain-5-hex { color: #F2E529; }
+
+/* Color Theme Swatches in RGBA */
+.Cheerful-young-hipster-woman,-creative-brain-1-rgba { color: rgba(216, 54, 67, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-2-rgba { color: rgba(228, 121, 242, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-3-rgba { color: rgba(166, 53, 242, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-4-rgba { color: rgba(69, 76, 114, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-5-rgba { color: rgba(242, 228, 41, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Cheerful-young-hipster-woman,-creative-brain-1-hsla { color: hsla(354, 68, 53, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-2-hsla { color: hsla(292, 82, 71, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-3-hsla { color: hsla(275, 88, 57, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-4-hsla { color: hsla(230, 24, 36, 1); }
+.Cheerful-young-hipster-woman,-creative-brain-5-hsla { color: hsla(56, 88, 55, 1); }
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.foto-1-hex { color: #0468BF; }
+.foto-2-hex { color: #0487D9; }
+.foto-3-hex { color: #D98943; }
+.foto-4-hex { color: #F25E3D; }
+.foto-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.foto-1-rgba { color: rgba(4, 104, 191, 1); }
+.foto-2-rgba { color: rgba(4, 135, 217, 1); }
+.foto-3-rgba { color: rgba(217, 137, 67, 1); }
+.foto-4-rgba { color: rgba(242, 94, 61, 1); }
+.foto-5-rgba { color: rgba(13, 13, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.foto-1-hsla { color: hsla(207, 95, 38, 1); }
+.foto-2-hsla { color: hsla(203, 96, 43, 1); }
+.foto-3-hsla { color: hsla(28, 66, 55, 1); }
+.foto-4-hsla { color: hsla(10, 87, 59, 1); }
+.foto-5-hsla { color: hsla(0, 0, 5, 1); }

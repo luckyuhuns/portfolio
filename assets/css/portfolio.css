@@ -4,20 +4,18 @@ body, html{
 	background-color: #0D0D0D;
 	background-size: cover;
 	background-position: center;
-	font-family: lato
 	height: 100%;
 	margin: 0;
 }
 
 
-#content{
-	font-family: coolvetica;
-	text-align: center;
-	padding-top: 25%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
 
+h1, h2, h3, h4, h5, h6{
+	font-family: "poppins-semibold", sans-serif;
+	color: #313131;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
 }
 
 header li{
@@ -26,25 +24,27 @@ header li{
 }
 
 h3{
-	font-family: coolvetica;
+	font-family: ;
 	color: white;
 }
 
 
 
 h1{
-	font-family: coolvetica;
+	font-family: ;
 	color: white;
 	font-weight: 400;
 	font-size: 5em;
 }
-h2{
-	font-family: coolvetica;
+h2, h4{
+	font-family: ;
 	color: white;
-	font-weight: 
+	font-weight: normal;
 }
+
+
 hr{
-	width: 400px;
+	width: 50%;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -60,9 +60,24 @@ li{
 
 }
 
+p span{
+	text-align: right;
+}
+
 footer i{
 	padding: 10px;
 	color:  #F25E3D;
+}
+
+#content{
+	font-family: coolvetica;
+
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
 }
 
 .social-links i{
@@ -84,6 +99,40 @@ footer i{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.summary{
+	padding: 10px;
+}
+
+.technologies{
+	padding: 20px;
+	margin: 10px;
+}
+
+.technologies li{
+	color: black;
+	font-family: coolvetica;
+}
+.technologies h2{
+	color: black;
+	font-family: coolvetica;
+}
+
+.skill{
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.color{
+	display: block;	
+	color: rgba(242, 94, 61, 1);
+}
+
+
+.university, .sec_sch{
+	margin: 10%;
+
 }
 
 .about_background{
@@ -131,7 +180,7 @@ footer {
 }
 
 #designed-by{
-	font-family: coolvetica;
+	font-family: ;
 	text-align: center;
 	text-decoration: underline;
 }
